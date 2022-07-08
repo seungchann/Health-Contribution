@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6429A60E2875B53C00CC919A /* HealthContribution WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6429A6142875B53C00CC919A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6429A6122875B53C00CC919A /* Interface.storyboard */; };
+		6429A6162875B53D00CC919A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6429A6152875B53D00CC919A /* Assets.xcassets */; };
+		6429A61C2875B53D00CC919A /* HealthContribution WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6429A6232875B53D00CC919A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6222875B53D00CC919A /* ExtensionDelegate.swift */; };
+		6429A6252875B53D00CC919A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6242875B53D00CC919A /* NotificationController.swift */; };
+		6429A6272875B53D00CC919A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6262875B53D00CC919A /* ComplicationController.swift */; };
+		6429A6292875B53E00CC919A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6429A6282875B53E00CC919A /* Assets.xcassets */; };
+		6429A63A2875B6BA00CC919A /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6392875B6BA00CC919A /* HomeInterfaceController.swift */; };
+		6429A63C2875B7FC00CC919A /* TileRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A63B2875B7FC00CC919A /* TileRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6429A60F2875B53C00CC919A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6429A6032875B53C00CC919A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6429A60C2875B53C00CC919A;
+			remoteInfo = "HealthContribution WatchKit App";
+		};
+		6429A61D2875B53D00CC919A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6429A6032875B53C00CC919A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6429A61A2875B53D00CC919A;
+			remoteInfo = "HealthContribution WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6429A6312875B53E00CC919A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6429A61C2875B53D00CC919A /* HealthContribution WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6429A6352875B53E00CC919A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6429A60E2875B53C00CC919A /* HealthContribution WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6429A6092875B53C00CC919A /* HealthContribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthContribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthContribution WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6429A6132875B53C00CC919A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6429A6152875B53D00CC919A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HealthContribution WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6429A6222875B53D00CC919A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6429A6242875B53D00CC919A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6429A6262875B53D00CC919A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6429A6282875B53E00CC919A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6429A62A2875B53E00CC919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6429A62B2875B53E00CC919A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6429A6392875B6BA00CC919A /* HomeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
+		6429A63B2875B7FC00CC919A /* TileRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6429A6182875B53D00CC919A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6429A6022875B53C00CC919A = {
+			isa = PBXGroup;
+			children = (
+				6429A6112875B53C00CC919A /* HealthContribution WatchKit App */,
+				6429A61F2875B53D00CC919A /* HealthContribution WatchKit Extension */,
+				6429A60A2875B53C00CC919A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6429A60A2875B53C00CC919A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6429A6092875B53C00CC919A /* HealthContribution.app */,
+				6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */,
+				6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6429A6112875B53C00CC919A /* HealthContribution WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6429A6122875B53C00CC919A /* Interface.storyboard */,
+				6429A6152875B53D00CC919A /* Assets.xcassets */,
+			);
+			path = "HealthContribution WatchKit App";
+			sourceTree = "<group>";
+		};
+		6429A61F2875B53D00CC919A /* HealthContribution WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6429A6392875B6BA00CC919A /* HomeInterfaceController.swift */,
+				6429A6222875B53D00CC919A /* ExtensionDelegate.swift */,
+				6429A6242875B53D00CC919A /* NotificationController.swift */,
+				6429A6262875B53D00CC919A /* ComplicationController.swift */,
+				6429A63B2875B7FC00CC919A /* TileRowController.swift */,
+				6429A6282875B53E00CC919A /* Assets.xcassets */,
+				6429A62A2875B53E00CC919A /* Info.plist */,
+				6429A62B2875B53E00CC919A /* PushNotificationPayload.apns */,
+			);
+			path = "HealthContribution WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6429A6082875B53C00CC919A /* HealthContribution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6429A6362875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution" */;
+			buildPhases = (
+				6429A6072875B53C00CC919A /* Resources */,
+				6429A6352875B53E00CC919A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6429A6102875B53C00CC919A /* PBXTargetDependency */,
+			);
+			name = HealthContribution;
+			productName = HealthContribution;
+			productReference = 6429A6092875B53C00CC919A /* HealthContribution.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6429A60C2875B53C00CC919A /* HealthContribution WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6429A6322875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit App" */;
+			buildPhases = (
+				6429A60B2875B53C00CC919A /* Resources */,
+				6429A6312875B53E00CC919A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6429A61E2875B53D00CC919A /* PBXTargetDependency */,
+			);
+			name = "HealthContribution WatchKit App";
+			productName = "HealthContribution WatchKit App";
+			productReference = 6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6429A61A2875B53D00CC919A /* HealthContribution WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6429A62E2875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit Extension" */;
+			buildPhases = (
+				6429A6172875B53D00CC919A /* Sources */,
+				6429A6182875B53D00CC919A /* Frameworks */,
+				6429A6192875B53D00CC919A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HealthContribution WatchKit Extension";
+			productName = "HealthContribution WatchKit Extension";
+			productReference = 6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6429A6032875B53C00CC919A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6429A6082875B53C00CC919A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6429A60C2875B53C00CC919A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6429A61A2875B53D00CC919A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6429A6062875B53C00CC919A /* Build configuration list for PBXProject "HealthContribution" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6429A6022875B53C00CC919A;
+			productRefGroup = 6429A60A2875B53C00CC919A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6429A6082875B53C00CC919A /* HealthContribution */,
+				6429A60C2875B53C00CC919A /* HealthContribution WatchKit App */,
+				6429A61A2875B53D00CC919A /* HealthContribution WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6429A6072875B53C00CC919A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6429A60B2875B53C00CC919A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6429A6162875B53D00CC919A /* Assets.xcassets in Resources */,
+				6429A6142875B53C00CC919A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6429A6192875B53D00CC919A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6429A6292875B53E00CC919A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6429A6172875B53D00CC919A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6429A63C2875B7FC00CC919A /* TileRowController.swift in Sources */,
+				6429A6252875B53D00CC919A /* NotificationController.swift in Sources */,
+				6429A6272875B53D00CC919A /* ComplicationController.swift in Sources */,
+				6429A63A2875B6BA00CC919A /* HomeInterfaceController.swift in Sources */,
+				6429A6232875B53D00CC919A /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6429A6102875B53C00CC919A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6429A60C2875B53C00CC919A /* HealthContribution WatchKit App */;
+			targetProxy = 6429A60F2875B53C00CC919A /* PBXContainerItemProxy */;
+		};
+		6429A61E2875B53D00CC919A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6429A61A2875B53D00CC919A /* HealthContribution WatchKit Extension */;
+			targetProxy = 6429A61D2875B53D00CC919A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6429A6122875B53C00CC919A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6429A6132875B53C00CC919A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6429A62C2875B53E00CC919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6429A62D2875B53E00CC919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6429A62F2875B53E00CC919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HealthContribution WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6429A6302875B53E00CC919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HealthContribution WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		6429A6332875B53E00CC919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = HealthContribution_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6429A6342875B53E00CC919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = HealthContribution_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		6429A6372875B53E00CC919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6429A6382875B53E00CC919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6429A6062875B53C00CC919A /* Build configuration list for PBXProject "HealthContribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6429A62C2875B53E00CC919A /* Debug */,
+				6429A62D2875B53E00CC919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6429A62E2875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6429A62F2875B53E00CC919A /* Debug */,
+				6429A6302875B53E00CC919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6429A6322875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6429A6332875B53E00CC919A /* Debug */,
+				6429A6342875B53E00CC919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6429A6362875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6429A6372875B53E00CC919A /* Debug */,
+				6429A6382875B53E00CC919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6429A6032875B53C00CC919A /* Project object */;
+}
