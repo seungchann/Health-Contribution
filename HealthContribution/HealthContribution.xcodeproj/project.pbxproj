@@ -7,54 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6429A60E2875B53C00CC919A /* HealthContribution WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6429A6142875B53C00CC919A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6429A6122875B53C00CC919A /* Interface.storyboard */; };
-		6429A6162875B53D00CC919A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6429A6152875B53D00CC919A /* Assets.xcassets */; };
-		6429A61C2875B53D00CC919A /* HealthContribution WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6429A6232875B53D00CC919A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6222875B53D00CC919A /* ExtensionDelegate.swift */; };
-		6429A6252875B53D00CC919A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6242875B53D00CC919A /* NotificationController.swift */; };
-		6429A6272875B53D00CC919A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6262875B53D00CC919A /* ComplicationController.swift */; };
-		6429A6292875B53E00CC919A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6429A6282875B53E00CC919A /* Assets.xcassets */; };
-		6429A63A2875B6BA00CC919A /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A6392875B6BA00CC919A /* HomeInterfaceController.swift */; };
-		6429A63C2875B7FC00CC919A /* TileRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429A63B2875B7FC00CC919A /* TileRowController.swift */; };
+		6462D8ED2878120D00CAB415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D8EC2878120D00CAB415 /* AppDelegate.swift */; };
+		6462D8EF2878120D00CAB415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D8EE2878120D00CAB415 /* SceneDelegate.swift */; };
+		6462D8F12878120D00CAB415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D8F02878120D00CAB415 /* ViewController.swift */; };
+		6462D8F42878120D00CAB415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6462D8F22878120D00CAB415 /* Main.storyboard */; };
+		6462D8F62878120E00CAB415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6462D8F52878120E00CAB415 /* Assets.xcassets */; };
+		6462D8F92878120E00CAB415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6462D8F72878120E00CAB415 /* LaunchScreen.storyboard */; };
+		6462D8FE2878120E00CAB415 /* HealthContribution WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6462D8FD2878120E00CAB415 /* HealthContribution WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6462D9042878120E00CAB415 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6462D9022878120E00CAB415 /* Interface.storyboard */; };
+		6462D9062878120F00CAB415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6462D9052878120F00CAB415 /* Assets.xcassets */; };
+		6462D90C2878120F00CAB415 /* HealthContribution WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6462D90B2878120F00CAB415 /* HealthContribution WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6462D9112878120F00CAB415 /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D9102878120F00CAB415 /* HomeInterfaceController.swift */; };
+		6462D9132878120F00CAB415 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D9122878120F00CAB415 /* ExtensionDelegate.swift */; };
+		6462D9152878120F00CAB415 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D9142878120F00CAB415 /* NotificationController.swift */; };
+		6462D9172878120F00CAB415 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D9162878120F00CAB415 /* ComplicationController.swift */; };
+		6462D9192878121000CAB415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6462D9182878121000CAB415 /* Assets.xcassets */; };
+		6462D92A287812CC00CAB415 /* TileRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6462D929287812CC00CAB415 /* TileRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6429A60F2875B53C00CC919A /* PBXContainerItemProxy */ = {
+		6462D8FF2878120E00CAB415 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6429A6032875B53C00CC919A /* Project object */;
+			containerPortal = 6462D8E12878120C00CAB415 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6429A60C2875B53C00CC919A;
+			remoteGlobalIDString = 6462D8FC2878120E00CAB415;
 			remoteInfo = "HealthContribution WatchKit App";
 		};
-		6429A61D2875B53D00CC919A /* PBXContainerItemProxy */ = {
+		6462D90D2878120F00CAB415 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6429A6032875B53C00CC919A /* Project object */;
+			containerPortal = 6462D8E12878120C00CAB415 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6429A61A2875B53D00CC919A;
+			remoteGlobalIDString = 6462D90A2878120F00CAB415;
 			remoteInfo = "HealthContribution WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6429A6312875B53E00CC919A /* Embed App Extensions */ = {
+		6462D9212878121000CAB415 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6429A61C2875B53D00CC919A /* HealthContribution WatchKit Extension.appex in Embed App Extensions */,
+				6462D90C2878120F00CAB415 /* HealthContribution WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6429A6352875B53E00CC919A /* Embed Watch Content */ = {
+		6462D9252878121000CAB415 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				6429A60E2875B53C00CC919A /* HealthContribution WatchKit App.app in Embed Watch Content */,
+				6462D8FE2878120E00CAB415 /* HealthContribution WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,23 +68,37 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6429A6092875B53C00CC919A /* HealthContribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthContribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthContribution WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6429A6132875B53C00CC919A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		6429A6152875B53D00CC919A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HealthContribution WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6429A6222875B53D00CC919A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		6429A6242875B53D00CC919A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		6429A6262875B53D00CC919A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		6429A6282875B53E00CC919A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6429A62A2875B53E00CC919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6429A62B2875B53E00CC919A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		6429A6392875B6BA00CC919A /* HomeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
-		6429A63B2875B7FC00CC919A /* TileRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileRowController.swift; sourceTree = "<group>"; };
+		6462D8E92878120D00CAB415 /* HealthContribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthContribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462D8EC2878120D00CAB415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6462D8EE2878120D00CAB415 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6462D8F02878120D00CAB415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6462D8F32878120D00CAB415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6462D8F52878120E00CAB415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6462D8F82878120E00CAB415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6462D8FA2878120E00CAB415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6462D8FD2878120E00CAB415 /* HealthContribution WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthContribution WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462D9032878120E00CAB415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6462D9052878120F00CAB415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6462D90B2878120F00CAB415 /* HealthContribution WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HealthContribution WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462D9102878120F00CAB415 /* HomeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
+		6462D9122878120F00CAB415 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6462D9142878120F00CAB415 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6462D9162878120F00CAB415 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6462D9182878121000CAB415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6462D91A2878121000CAB415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6462D91B2878121000CAB415 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6462D929287812CC00CAB415 /* TileRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6429A6182875B53D00CC919A /* Frameworks */ = {
+		6462D8E62878120D00CAB415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462D9082878120F00CAB415 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,45 +108,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6429A6022875B53C00CC919A = {
+		6462D8E02878120C00CAB415 = {
 			isa = PBXGroup;
 			children = (
-				6429A6112875B53C00CC919A /* HealthContribution WatchKit App */,
-				6429A61F2875B53D00CC919A /* HealthContribution WatchKit Extension */,
-				6429A60A2875B53C00CC919A /* Products */,
+				6462D8EB2878120D00CAB415 /* HealthContribution */,
+				6462D9012878120E00CAB415 /* HealthContribution WatchKit App */,
+				6462D90F2878120F00CAB415 /* HealthContribution WatchKit Extension */,
+				6462D8EA2878120D00CAB415 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6429A60A2875B53C00CC919A /* Products */ = {
+		6462D8EA2878120D00CAB415 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6429A6092875B53C00CC919A /* HealthContribution.app */,
-				6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */,
-				6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */,
+				6462D8E92878120D00CAB415 /* HealthContribution.app */,
+				6462D8FD2878120E00CAB415 /* HealthContribution WatchKit App.app */,
+				6462D90B2878120F00CAB415 /* HealthContribution WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6429A6112875B53C00CC919A /* HealthContribution WatchKit App */ = {
+		6462D8EB2878120D00CAB415 /* HealthContribution */ = {
 			isa = PBXGroup;
 			children = (
-				6429A6122875B53C00CC919A /* Interface.storyboard */,
-				6429A6152875B53D00CC919A /* Assets.xcassets */,
+				6462D8EC2878120D00CAB415 /* AppDelegate.swift */,
+				6462D8EE2878120D00CAB415 /* SceneDelegate.swift */,
+				6462D8F02878120D00CAB415 /* ViewController.swift */,
+				6462D8F22878120D00CAB415 /* Main.storyboard */,
+				6462D8F52878120E00CAB415 /* Assets.xcassets */,
+				6462D8F72878120E00CAB415 /* LaunchScreen.storyboard */,
+				6462D8FA2878120E00CAB415 /* Info.plist */,
+			);
+			path = HealthContribution;
+			sourceTree = "<group>";
+		};
+		6462D9012878120E00CAB415 /* HealthContribution WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6462D9022878120E00CAB415 /* Interface.storyboard */,
+				6462D9052878120F00CAB415 /* Assets.xcassets */,
 			);
 			path = "HealthContribution WatchKit App";
 			sourceTree = "<group>";
 		};
-		6429A61F2875B53D00CC919A /* HealthContribution WatchKit Extension */ = {
+		6462D90F2878120F00CAB415 /* HealthContribution WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6429A6392875B6BA00CC919A /* HomeInterfaceController.swift */,
-				6429A6222875B53D00CC919A /* ExtensionDelegate.swift */,
-				6429A6242875B53D00CC919A /* NotificationController.swift */,
-				6429A6262875B53D00CC919A /* ComplicationController.swift */,
-				6429A63B2875B7FC00CC919A /* TileRowController.swift */,
-				6429A6282875B53E00CC919A /* Assets.xcassets */,
-				6429A62A2875B53E00CC919A /* Info.plist */,
-				6429A62B2875B53E00CC919A /* PushNotificationPayload.apns */,
+				6462D9102878120F00CAB415 /* HomeInterfaceController.swift */,
+				6462D9122878120F00CAB415 /* ExtensionDelegate.swift */,
+				6462D9142878120F00CAB415 /* NotificationController.swift */,
+				6462D9162878120F00CAB415 /* ComplicationController.swift */,
+				6462D929287812CC00CAB415 /* TileRowController.swift */,
+				6462D9182878121000CAB415 /* Assets.xcassets */,
+				6462D91A2878121000CAB415 /* Info.plist */,
+				6462D91B2878121000CAB415 /* PushNotificationPayload.apns */,
 			);
 			path = "HealthContribution WatchKit Extension";
 			sourceTree = "<group>";
@@ -134,47 +169,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6429A6082875B53C00CC919A /* HealthContribution */ = {
+		6462D8E82878120D00CAB415 /* HealthContribution */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6429A6362875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution" */;
+			buildConfigurationList = 6462D9262878121000CAB415 /* Build configuration list for PBXNativeTarget "HealthContribution" */;
 			buildPhases = (
-				6429A6072875B53C00CC919A /* Resources */,
-				6429A6352875B53E00CC919A /* Embed Watch Content */,
+				6462D8E52878120D00CAB415 /* Sources */,
+				6462D8E62878120D00CAB415 /* Frameworks */,
+				6462D8E72878120D00CAB415 /* Resources */,
+				6462D9252878121000CAB415 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6429A6102875B53C00CC919A /* PBXTargetDependency */,
+				6462D9002878120E00CAB415 /* PBXTargetDependency */,
 			);
 			name = HealthContribution;
 			productName = HealthContribution;
-			productReference = 6429A6092875B53C00CC919A /* HealthContribution.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
+			productReference = 6462D8E92878120D00CAB415 /* HealthContribution.app */;
+			productType = "com.apple.product-type.application";
 		};
-		6429A60C2875B53C00CC919A /* HealthContribution WatchKit App */ = {
+		6462D8FC2878120E00CAB415 /* HealthContribution WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6429A6322875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit App" */;
+			buildConfigurationList = 6462D9222878121000CAB415 /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit App" */;
 			buildPhases = (
-				6429A60B2875B53C00CC919A /* Resources */,
-				6429A6312875B53E00CC919A /* Embed App Extensions */,
+				6462D8FB2878120E00CAB415 /* Resources */,
+				6462D9212878121000CAB415 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6429A61E2875B53D00CC919A /* PBXTargetDependency */,
+				6462D90E2878120F00CAB415 /* PBXTargetDependency */,
 			);
 			name = "HealthContribution WatchKit App";
 			productName = "HealthContribution WatchKit App";
-			productReference = 6429A60D2875B53C00CC919A /* HealthContribution WatchKit App.app */;
+			productReference = 6462D8FD2878120E00CAB415 /* HealthContribution WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		6429A61A2875B53D00CC919A /* HealthContribution WatchKit Extension */ = {
+		6462D90A2878120F00CAB415 /* HealthContribution WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6429A62E2875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit Extension" */;
+			buildConfigurationList = 6462D91E2878121000CAB415 /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit Extension" */;
 			buildPhases = (
-				6429A6172875B53D00CC919A /* Sources */,
-				6429A6182875B53D00CC919A /* Frameworks */,
-				6429A6192875B53D00CC919A /* Resources */,
+				6462D9072878120F00CAB415 /* Sources */,
+				6462D9082878120F00CAB415 /* Frameworks */,
+				6462D9092878120F00CAB415 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -182,31 +219,31 @@
 			);
 			name = "HealthContribution WatchKit Extension";
 			productName = "HealthContribution WatchKit Extension";
-			productReference = 6429A61B2875B53D00CC919A /* HealthContribution WatchKit Extension.appex */;
+			productReference = 6462D90B2878120F00CAB415 /* HealthContribution WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6429A6032875B53C00CC919A /* Project object */ = {
+		6462D8E12878120C00CAB415 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					6429A6082875B53C00CC919A = {
+					6462D8E82878120D00CAB415 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					6429A60C2875B53C00CC919A = {
+					6462D8FC2878120E00CAB415 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					6429A61A2875B53D00CC919A = {
+					6462D90A2878120F00CAB415 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 6429A6062875B53C00CC919A /* Build configuration list for PBXProject "HealthContribution" */;
+			buildConfigurationList = 6462D8E42878120C00CAB415 /* Build configuration list for PBXProject "HealthContribution" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,78 +251,107 @@
 				en,
 				Base,
 			);
-			mainGroup = 6429A6022875B53C00CC919A;
-			productRefGroup = 6429A60A2875B53C00CC919A /* Products */;
+			mainGroup = 6462D8E02878120C00CAB415;
+			productRefGroup = 6462D8EA2878120D00CAB415 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6429A6082875B53C00CC919A /* HealthContribution */,
-				6429A60C2875B53C00CC919A /* HealthContribution WatchKit App */,
-				6429A61A2875B53D00CC919A /* HealthContribution WatchKit Extension */,
+				6462D8E82878120D00CAB415 /* HealthContribution */,
+				6462D8FC2878120E00CAB415 /* HealthContribution WatchKit App */,
+				6462D90A2878120F00CAB415 /* HealthContribution WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6429A6072875B53C00CC919A /* Resources */ = {
+		6462D8E72878120D00CAB415 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6462D8F92878120E00CAB415 /* LaunchScreen.storyboard in Resources */,
+				6462D8F62878120E00CAB415 /* Assets.xcassets in Resources */,
+				6462D8F42878120D00CAB415 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6429A60B2875B53C00CC919A /* Resources */ = {
+		6462D8FB2878120E00CAB415 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6429A6162875B53D00CC919A /* Assets.xcassets in Resources */,
-				6429A6142875B53C00CC919A /* Interface.storyboard in Resources */,
+				6462D9062878120F00CAB415 /* Assets.xcassets in Resources */,
+				6462D9042878120E00CAB415 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6429A6192875B53D00CC919A /* Resources */ = {
+		6462D9092878120F00CAB415 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6429A6292875B53E00CC919A /* Assets.xcassets in Resources */,
+				6462D9192878121000CAB415 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6429A6172875B53D00CC919A /* Sources */ = {
+		6462D8E52878120D00CAB415 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6429A63C2875B7FC00CC919A /* TileRowController.swift in Sources */,
-				6429A6252875B53D00CC919A /* NotificationController.swift in Sources */,
-				6429A6272875B53D00CC919A /* ComplicationController.swift in Sources */,
-				6429A63A2875B6BA00CC919A /* HomeInterfaceController.swift in Sources */,
-				6429A6232875B53D00CC919A /* ExtensionDelegate.swift in Sources */,
+				6462D8F12878120D00CAB415 /* ViewController.swift in Sources */,
+				6462D8ED2878120D00CAB415 /* AppDelegate.swift in Sources */,
+				6462D8EF2878120D00CAB415 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6462D9072878120F00CAB415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462D92A287812CC00CAB415 /* TileRowController.swift in Sources */,
+				6462D9152878120F00CAB415 /* NotificationController.swift in Sources */,
+				6462D9172878120F00CAB415 /* ComplicationController.swift in Sources */,
+				6462D9132878120F00CAB415 /* ExtensionDelegate.swift in Sources */,
+				6462D9112878120F00CAB415 /* HomeInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6429A6102875B53C00CC919A /* PBXTargetDependency */ = {
+		6462D9002878120E00CAB415 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6429A60C2875B53C00CC919A /* HealthContribution WatchKit App */;
-			targetProxy = 6429A60F2875B53C00CC919A /* PBXContainerItemProxy */;
+			target = 6462D8FC2878120E00CAB415 /* HealthContribution WatchKit App */;
+			targetProxy = 6462D8FF2878120E00CAB415 /* PBXContainerItemProxy */;
 		};
-		6429A61E2875B53D00CC919A /* PBXTargetDependency */ = {
+		6462D90E2878120F00CAB415 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6429A61A2875B53D00CC919A /* HealthContribution WatchKit Extension */;
-			targetProxy = 6429A61D2875B53D00CC919A /* PBXContainerItemProxy */;
+			target = 6462D90A2878120F00CAB415 /* HealthContribution WatchKit Extension */;
+			targetProxy = 6462D90D2878120F00CAB415 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6429A6122875B53C00CC919A /* Interface.storyboard */ = {
+		6462D8F22878120D00CAB415 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6429A6132875B53C00CC919A /* Base */,
+				6462D8F32878120D00CAB415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6462D8F72878120E00CAB415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6462D8F82878120E00CAB415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6462D9022878120E00CAB415 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6462D9032878120E00CAB415 /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -293,7 +359,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6429A62C2875B53E00CC919A /* Debug */ = {
+		6462D91C2878121000CAB415 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,13 +412,12 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		6429A62D2875B53E00CC919A /* Release */ = {
+		6462D91D2878121000CAB415 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,76 +463,75 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6462D91F2878121000CAB415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HealthContribution WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6462D9202878121000CAB415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HealthContribution WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6429A62F2875B53E00CC919A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MQH3AL8X2Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HealthContribution WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Debug;
-		};
-		6429A6302875B53E00CC919A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MQH3AL8X2Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HealthContribution WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
-		6429A6332875B53E00CC919A /* Debug */ = {
+		6462D9232878121000CAB415 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -480,6 +544,7 @@
 				IBSC_MODULE = HealthContribution_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.seungchan.HealthContribution;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,7 +557,7 @@
 			};
 			name = Debug;
 		};
-		6429A6342875B53E00CC919A /* Release */ = {
+		6462D9242878121000CAB415 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -505,6 +570,7 @@
 				IBSC_MODULE = HealthContribution_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "HealthContribution WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.seungchan.HealthContribution;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,76 +579,112 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
-		6429A6372875B53E00CC919A /* Debug */ = {
+		6462D9272878121000CAB415 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthContribution/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6429A6382875B53E00CC919A /* Release */ = {
+		6462D9282878121000CAB415 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQH3AL8X2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthContribution/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.seungchan.HealthContribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6429A6062875B53C00CC919A /* Build configuration list for PBXProject "HealthContribution" */ = {
+		6462D8E42878120C00CAB415 /* Build configuration list for PBXProject "HealthContribution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6429A62C2875B53E00CC919A /* Debug */,
-				6429A62D2875B53E00CC919A /* Release */,
+				6462D91C2878121000CAB415 /* Debug */,
+				6462D91D2878121000CAB415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6429A62E2875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit Extension" */ = {
+		6462D91E2878121000CAB415 /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6429A62F2875B53E00CC919A /* Debug */,
-				6429A6302875B53E00CC919A /* Release */,
+				6462D91F2878121000CAB415 /* Debug */,
+				6462D9202878121000CAB415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6429A6322875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit App" */ = {
+		6462D9222878121000CAB415 /* Build configuration list for PBXNativeTarget "HealthContribution WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6429A6332875B53E00CC919A /* Debug */,
-				6429A6342875B53E00CC919A /* Release */,
+				6462D9232878121000CAB415 /* Debug */,
+				6462D9242878121000CAB415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6429A6362875B53E00CC919A /* Build configuration list for PBXNativeTarget "HealthContribution" */ = {
+		6462D9262878121000CAB415 /* Build configuration list for PBXNativeTarget "HealthContribution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6429A6372875B53E00CC919A /* Debug */,
-				6429A6382875B53E00CC919A /* Release */,
+				6462D9272878121000CAB415 /* Debug */,
+				6462D9282878121000CAB415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6429A6032875B53C00CC919A /* Project object */;
+	rootObject = 6462D8E12878120C00CAB415 /* Project object */;
 }

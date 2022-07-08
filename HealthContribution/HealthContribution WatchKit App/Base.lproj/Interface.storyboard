@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="20037" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38"/>
+    <device id="watch45"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
@@ -11,31 +11,31 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="HomeInterfaceController" customModule="HealthContribution_WatchKit_Extension">
                     <items>
-                        <table alignment="left" id="Gyn-Cj-PC3">
+                        <table alignment="left" spacing="0.5" id="rfD-8d-5Ea">
                             <items>
-                                <tableRow identifier="cell" id="3Hg-9i-zjZ" customClass="TileRowController" customModule="HealthContribution_WatchKit_Extension">
-                                    <group key="rootItem" width="1" alignment="left" spacing="3" id="0hl-Pk-31H">
+                                <tableRow identifier="cell" selectable="NO" id="pjI-sM-Jtj" customClass="TileRowController" customModule="HealthContribution_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" spacing="3" id="EPG-cM-iAP">
                                         <items>
-                                            <imageView width="0.25" height="1" alignment="left" image="contribution_0" id="KJh-hO-6mo"/>
-                                            <imageView width="0.25" height="1" alignment="left" image="contribution_1" id="1Cr-nv-keV"/>
-                                            <imageView width="0.25" height="1" alignment="left" image="contribution_2" id="PQ5-z3-gmv"/>
-                                            <imageView width="0.25" height="1" alignment="left" image="contribution_0" id="7uh-HF-cZu"/>
+                                            <imageView width="0.25" height="1" alignment="left" image="contribution_0" contentMode="scaleAspectFit" id="BCu-Vq-01k"/>
+                                            <imageView width="0.25" height="1" alignment="left" image="contribution_1" contentMode="scaleAspectFit" id="eyZ-zn-iGK"/>
+                                            <imageView width="0.25" height="1" alignment="left" image="contribution_2" contentMode="scaleAspectFit" id="fDg-tw-edS"/>
+                                            <imageView width="0.25" height="1" alignment="left" image="contribution_0" contentMode="scaleAspectFit" id="eND-mi-9Lw"/>
                                         </items>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <edgeInsets key="margins" left="5" right="5" top="0.0" bottom="0.0"/>
                                     </group>
                                     <connections>
-                                        <outlet property="firstTile" destination="KJh-hO-6mo" id="pO4-VK-njT"/>
-                                        <outlet property="fourthTile" destination="7uh-HF-cZu" id="eGK-la-Tjx"/>
-                                        <outlet property="secondTile" destination="1Cr-nv-keV" id="HD9-1J-NxW"/>
-                                        <outlet property="thirdTile" destination="PQ5-z3-gmv" id="6sa-sg-5Oo"/>
+                                        <outlet property="firstTile" destination="BCu-Vq-01k" id="jdf-fJ-8sD"/>
+                                        <outlet property="fourthTile" destination="eND-mi-9Lw" id="ZGl-VF-RC4"/>
+                                        <outlet property="secondTile" destination="eyZ-zn-iGK" id="dDS-Xv-Tca"/>
+                                        <outlet property="thirdTile" destination="fDg-tw-edS" id="AhL-0q-Zt6"/>
                                     </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
                     <connections>
-                        <outlet property="tileTable" destination="Gyn-Cj-PC3" id="XmN-qq-hyo"/>
+                        <outlet property="tileTable" destination="rfD-8d-5Ea" id="vxJ-9s-bw6"/>
                     </connections>
                 </controller>
             </objects>
